@@ -1,0 +1,428 @@
+/* Style for main container element specifies the background color */
+#container {
+    background-color: greenyellow;
+}
+
+/* Style for the banner sets the width and height of the image */
+#banner img {
+    width: 100%;
+    height: 10em;
+}
+
+/*Display the mobile layout for default media presentation */
+.mobile {
+    display: inline;
+}
+
+/*Style rule for the header paragraph specifies the text appearance, colors, and size */
+header p {
+    text-align: center;
+    font-size: 2em;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+    background-color: navy;
+}
+
+/*Style for the navigation element specifies the display, background color, padding, width, and text alignment */
+nav {
+    display: inline-block;
+    background-color: navy;
+    padding-right: 1em;
+    width: 100%;
+    text-align: center;
+}
+
+/*Style for the navigation list specifies the text color, text alignment, display, padding, margin, and border */
+nav li {
+    color: orange;
+    list-style-type: none;
+    font-weight: bold;
+    display: inline;
+    padding: .1em;
+    text-align: center;
+    margin: .1em;
+    border: solid black .01em;
+}
+
+/*Style for the navigation anchor link specifies center alignment */
+nav a {
+    text-align: center;
+}
+
+/*Style specifies color for unvisited navigation links */
+nav a:link {
+    color: orange;
+}
+
+/*Style specifies color for visited navigation links */
+nav a:visited {
+    color: yellow;
+}
+
+/*Style specifies the floatL class image float, width, padding, and margin */
+.floatL img {
+    float: left;
+    width: 80%;
+    padding: .5em;
+    margin: .1em;
+}
+
+/*Style specifies the floatR class image float, width, padding, and margin */
+.floatR img {
+    float: right;
+    width: 80%;
+    padding: .5em;
+    margin: .1em;
+}
+
+/*Style specifies the floatR class section color, border, width, and float */
+.floatR section {
+    background-color: navy;
+    border: solid black .01em;
+    border-radius: 1em;
+    width: 15%;
+    float: right;
+}
+
+/*Style specifies the floatR class h1 element font family, size, color, alignment, and weight */
+.floatR h1 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: .8em;
+    color: orange;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*Style for floatL class section element specifies background color, border, width, and float */
+.floatL section {
+    background-color: navy;
+    border: solid black .01em;
+    border-radius: 1em;
+    width: 15%;
+    align-content: center;
+    float: left;
+}
+
+/*Style specifies the floatL class h1 element font family, size, color, alignment, and weight */
+.floatL h1 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: .8em ;
+    color: orange;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*Style for floatC class section element specifies background color and alignment */
+.floatC section {
+    align-content: center;
+    text-align: center;
+    background-color: greenyellow;
+}
+
+/*Style for floatC class list specifies font size, weight, and alignment */
+.floatC ul li {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*Style specifies footer text alignment, size, weight, color, width, display, font family, and font variant */
+footer {
+    text-align: center;
+    font-size: 1em;
+    font-variant: small-caps;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+    background-color: navy;
+    display: inline-block;
+    width: 100%;
+    font-weight: bold;
+}
+
+/*Style specifies footer paragraph element text alignment, size, variant, family, color, weight, background color, and display */
+footer p {
+    text-align: center;
+    font-size: 1em;
+    font-variant: small-caps;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+    background-color: navy;
+    display: inline-block;
+    width: 100%;
+    font-weight: bold;
+}
+
+/*Style specifies list border, padding, and margin for boarding page list */
+dl {
+    border: solid navy .1em;
+    padding: .1em;
+    margin: .1em;
+}
+
+/*Style specifies list background color, font weight, and color for boarding page list */
+dl dt {
+    background-color: navy;
+    color: orange;
+    font-weight: bold;
+}
+
+/*Style specifies list border, padding, and margin for boarding page list */
+dl dd {
+    background-color: greenyellow;
+    color: navy;
+    font-weight: bold;
+}
+
+/*Style specifies boarding class h1 and h2 elements text alignment, color, and weight */
+.boarding h1, h2 {
+    text-align: center;
+    color: navy;
+    font-weight: bold;
+}
+
+/*Style specifies contactUs class h1 and h2 elements text alignment, color, and weight */
+.contactUs h1, h2 {
+    text-align: center;
+    color: navy;
+    font-weight: bold;
+}
+
+/*Style specifies label element display, float, width, padding, and alignment */
+label {
+    display: block;
+    float: left;
+    width: 50%;
+    padding: .2em;
+    text-align: right;
+}
+
+/*Style specifies input element display and margin */
+input {
+    display: block;
+    margin: .2em;
+}
+
+/*Style specifies form element width */
+form {
+    width: 100%;
+}
+
+/*Style specifies button class margin and display */
+.btn {
+    margin-left: 50%;
+    display: inline;
+}
+
+/*Style specifies about class h1, h2, and p text alignment and color */
+.about h1, h2, p {
+    text-align: center;
+    color: navy;
+}
+
+/*Style specifies about class image width, display, and border */
+.about img {
+    width: 25%;
+    display: inline;
+    border: solid navy .1em;
+}
+
+/*Style disables display of desktop class while mobile class is active */
+.desktop {
+    display: none;
+}
+
+/*Style disables display of tablet class while mobile class is active */
+.tablet {
+    display: none;
+}
+
+/*Media query to change to tablet class from mobile class at 570px */
+@media only screen and (min-width: 480px) {
+    
+    /*Style disables display of mobile class while tablet class is active */
+    .mobile {
+        display: none;
+    }
+    
+    /*Style displays tablet class */
+    .tablet {
+        display: inline;
+    }
+    
+    /*Style disables display of desktop class while tablet class is active */
+    .desktop {
+        display: none;
+    }
+    
+    /*Style specifies table element width, padding, margin, and border */
+    table {
+		width: 100%;
+		padding: .1em;
+		margin: .1em;
+		border: solid black .1em;
+		border-collapse: collapse;
+    }
+
+    /*Style specifies table caption text alignment, color, weight, width, padding, margins, and border */
+    table caption {
+        text-align: center;
+        width: 99%;
+        padding: .1em;
+        margin-left: auto;
+        margin-right: auto;
+        border: solid black .1em;
+        color: orange;
+        background-color: navy;
+        font-weight: bold;
+    }
+
+    /*Style specifies table header background color, border, width, padding, and text alignment */
+    table th {
+        background-color: greenyellow;
+        text-align: center;
+        width: auto;
+        padding: .1em;
+        border: solid black .1em;
+    }
+
+    /*Style specifies table row text alignment, width, padding, and border */
+    table tr {
+        text-align: center;
+        width: auto;
+        padding: .1em;
+        border: solid black .1em;
+    }
+
+    /*Style specifies table detail text alignment, width, padding, and border */
+    table td {
+        text-align: center;
+        width: auto;
+        padding: .1em;
+        border: solid black .1em;
+    }
+	
+    /*Style removes floatC list style type for tablet viewport */
+	.floatC ul li {
+        font-size: 1.5em;
+        font-weight: bold;
+        text-align: center;
+        list-style-type: none;
+    }
+}
+
+/*Media query to change to desktop class from tablet class at 900px */
+@media only screen and (min-width: 900px) {
+    
+    /*Style disables display of mobile class while desktop class is active */
+    .mobile {
+        display: none;
+    }
+    
+    /*Style disables display of tablet class while desktop class is active */
+    .tablet {
+        display: none;
+    }
+    
+    /*Style displays desktop class for viewport */
+    .desktop {
+        display: inline;
+    }
+    
+    /*Style specifies table element width, padding, margin, and border */
+    table {
+		width: 100%;
+		padding: .1em;
+		margin: .1em;
+		border: solid black .1em;
+		border-collapse: collapse;
+    }
+
+    /*Style specifies table caption text alignment, color, weight, width, padding, margins, and border */
+    table caption {
+        text-align: center;
+        width: 99%;
+        padding: .1em;
+        margin-left: auto;
+        margin-right: auto;
+        border: solid black .1em;
+        color: orange;
+        background-color: navy;
+        font-weight: bold;
+    }
+
+    /*Style specifies table header background color, border, width, padding, and text alignment */
+    table th {
+        background-color: greenyellow;
+        text-align: center;
+        width: auto;
+        padding: .1em;
+        border: solid black .1em;
+    }
+
+    /*Style specifies table row text alignment, width, padding, and border */
+    table tr {
+        text-align: center;
+        width: auto;
+        padding: .1em;
+        border: solid black .1em;
+    }
+
+    /*Style specifies table detail text alignment, width, padding, and border */
+    table td {
+        text-align: center;
+        width: auto;
+        padding: .1em;
+        border: solid black .1em;
+    }
+    
+    /*Style specifies figure element background color, width, and left margin */
+	figure {
+		background-color: greenyellow;
+		width: 100%;
+		margin-left: 30%;
+	}
+	
+    /*Style specifies figure image height, width, border, display, padding, and background color */
+    figure img {
+        height: 10em;
+        width: 10em;
+        border: solid navy .1em;
+        display: inline-block;
+        padding: .1em;
+		background-color: greenyellow;
+    }
+    
+    /*Style specifies figure caption text color, weight, and underline */
+    figcaption {
+        color: navy;
+        font-weight: bold;
+		text-decoration: underline;
+    }
+    
+	/*Style specifies the floatL class image float, width, padding, and margin */
+	.floatL img {
+		float: left;
+		width: 40%;
+		padding: .5em;
+		margin: .1em;
+	}
+
+	/*Style specifies the floatR class image float, width, padding, and margin */
+	.floatR img {
+		float: right;
+		width: 40%;
+		padding: .5em;
+		margin: .1em;
+	}
+	
+     /*Style removes floatC list style type for desktop viewport */
+    .floatC ul li {
+        font-size: 1.5em;
+        font-weight: bold;
+        text-align: center;
+        list-style-type: none;
+    }
+    
+}
